@@ -14,7 +14,7 @@ limitations under the License.
 */
 
 import { ChangeDetectionStrategy, Component, EventEmitter, ElementRef, Renderer, ViewChild, Output, Input } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Platform } from '@ionic/angular';
 
 export interface FooterMetadata {
   height: number;
